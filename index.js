@@ -76,9 +76,4 @@ app.listen(3000, function () {
 
 
 // e0d1182c086b1cf140fcad1e03790b91-us21
-
-<<<<<<< HEAD
 // 411443fed0
-=======
-// 411443fed0
->>>>>>> 57e76dd24655974b3b1229e5e6ab42495ff72ae4
