@@ -67,17 +67,6 @@
     <script>
         $(document).ready(function () {
 
-            // $('.eye').click(function () {
-            //     if ($('.pass input').attr('type') === 'password') {
-            //         $('.pass input').attr('type', 'text');
-            //         $('.eye').attr('src', './public/images/show.png');
-            //     }
-            //     else if ($('.pass input').attr('type') === 'text') {
-            //         $('.pass input').attr('type', 'password');
-            //         $('.eye').attr('src', './public/images/hide.png');
-            //     }
-            // })
-
             $('input[type=email]').keyup(function () {
                 if (document.querySelector(".emailID").checkValidity()) {
                     $(".email").css("border-color", "rgba(0, 240, 56, 0.9)");
