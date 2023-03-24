@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&display=swap" rel="stylesheet">
+
+    <title>Login/SIgn-Up</title>
+</head>
+
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="/" method="post">
+                    <h1 class="fail">Uh oh!</h1>
+                    <p class="failure-msg">There was a problem logging in.<br>Please try again or contact the developer.</p>
+                    <form action="/failure" method="post">
+                        <button class="try-again" type="submit">Try Again</button>
+                    </form>
+                </form>
+            </div>
+        </div>
+        <p class="copyright">&copy; Mehul Mangla</p>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <script src="/app.js" charset="UTF-8"></script>
+</body>
+
+</html>
